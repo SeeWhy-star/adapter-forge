@@ -1,0 +1,14 @@
+# Local runtime output and credentials; ignores do not replace access controls.
+/runs/
+/workspaces/
+/.local/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+target/
+.idea/
+*.iml
+__pycache__/
+.venv/
